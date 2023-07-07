@@ -1,0 +1,32 @@
+
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*
+/broadcast/*/31337/
+
+# node
+node_modules
+package-lock.json
+yarn.lock
+
+.env
+.env*
+!.env.template
+coverage
+coverage.json
+typechain
+typechain-types
+.DS_Store
+
+# Hardhat files
+cache
+artifacts
+abis
+out
+
+# Foundry
+out
+
+# Others 
+#lib
